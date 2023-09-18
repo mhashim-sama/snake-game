@@ -1,0 +1,38 @@
+.Board {
+	margin-top: 5%;
+	margin-left: 30%;
+	margin-right: 30%;
+	display: grid;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(10, 1fr);
+	row-gap: 1vh;
+	column-gap: 1vh;
+	background-color: grey;
+}
+
+.Cell {
+	min-width: 3vw;
+	min-height: 3vw;
+	border: 1% solid grey;	
+}
+
+/*.Cell:hover {
+	background-color: white !important;
+}
+*/
+
+#Grid {
+	background-color: black;
+}
+
+#Snake {
+	background-color: blue;
+}
+
+#Food {
+	background-color: red;
+}
